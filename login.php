@@ -1,4 +1,12 @@
-<?php include "header.php"; 
+<?php
+//////////////////////////////////////////////
+// Project: CR Voting                       //
+// Author: Abrar ul Haq                     //
+// Github url: https://github.com/abrarism  //
+// Website: https://instagram.com/abrarism  //
+// Date: 21-July-2021                       //
+//////////////////////////////////////////////
+ include "header.php"; 
 if(!isset($_SESSION)) {
 session_start();
 }
