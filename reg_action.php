@@ -50,7 +50,11 @@ if (!$sql2) {
 		 die (mysqli_error($con));
 		 }
 else {
-echo "Successfully Registered!  <a href= 'login.php'>Clich here to Login </a>";
+	
+	echo "<center><legend><font color='#005777' size='5'> Successfully Registered!  <a href= 'login.php'>Clich here to Login </a></p></font></legend></center>
+	";
+
+  
 }
 }
 else {
